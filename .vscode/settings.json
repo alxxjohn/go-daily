@@ -1,21 +1,241 @@
+
 {
-    "workbench.colorCustomizations": {
-        "activityBar.activeBackground": "#1a1a1a",
-        "activityBar.background": "#1a1a1a",
-        "activityBar.foreground": "#e7e7e7",
-        "activityBar.inactiveForeground": "#e7e7e799",
-        "activityBarBadge.background": "#606020",
-        "activityBarBadge.foreground": "#e7e7e7",
-        "commandCenter.border": "#e7e7e799",
-        "sash.hoverBorder": "#1a1a1a",
-        "statusBar.background": "#000000",
-        "statusBar.foreground": "#e7e7e7",
-        "statusBarItem.hoverBackground": "#1a1a1a",
-        "statusBarItem.remoteBackground": "#000000",
-        "statusBarItem.remoteForeground": "#e7e7e7",
-        "titleBar.activeBackground": "#000000",
-        "titleBar.activeForeground": "#e7e7e7",
-        "titleBar.inactiveBackground": "#00000099",
-        "titleBar.inactiveForeground": "#e7e7e799"
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#1a1a1a",
+    "activityBar.activeBorder": "#606020",
+    "activityBar.background": "#1a1a1a",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#606020",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "sash.hoverBorder": "#1a1a1a",
+    "statusBar.background": "#000000",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#1a1a1a",
+    "statusBarItem.remoteBackground": "#000000",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "titleBar.activeBackground": "#000000",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#00000099",
+    "titleBar.inactiveForeground": "#e7e7e799",
+    "editorBracketHighlight.foreground1": "#ffffff",
+    "editorBracketHighlight.foreground2": "#2a9f61",
+    "editorBracketHighlight.foreground3": "#85ffdf",
+    "editorBracketHighlight.foreground4": "#63b5c2",
+    "editorBracketHighlight.foreground5": "#d8dbdd",
+    "editorBracketHighlight.foreground6": "#abb2c0",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#ffc0c2",
+    "editorBracketPairGuide.background1": "#eaeaea9e",
+    "editorBracketPairGuide.background2": "#ffffff4f",
+    "editorBracketPairGuide.activeBackground3": "#057aff5f",
+    "terminal.background": "#000000",
+    "terminal.foreground": "#c9c7c7",
+    "terminalCursor.background": "#1bb8ab",
+    "terminalCursor.foreground": "#0D6678",
+    "terminal.ansiBlack": "#000000",
+    "terminal.ansiBlue": "#0D6678",
+    "terminal.ansiBrightBlack": "#665C54",
+    "terminal.ansiBrightBlue": "#0D6678",
+    "terminal.ansiBrightCyan": "#8BA59B",
+    "terminal.ansiBrightGreen": "#95C085",
+    "terminal.ansiBrightMagenta": "#8F4673",
+    "terminal.ansiBrightRed": "#FB543F",
+    "terminal.ansiBrightWhite": "#FDF4C1",
+    "terminal.ansiBrightYellow": "#FAC03B",
+    "terminal.ansiCyan": "#8BA59B",
+    "terminal.ansiGreen": "#95C085",
+    "terminal.ansiMagenta": "#8F4673",
+    "terminal.ansiRed": "#FB543F",
+    "terminal.ansiWhite": "#A89984",
+    "terminal.ansiYellow": "#FAC03B",
+    "commandCenter.border": "#e7e7e799"
+},
+  "peacock.color": "#000000",
+  "editor.suggest.showCustomcolors": true,
+  "editor.fontSize": 10,
+  "editor.tabCompletion": "on",
+  "terminal.integrated.fontSize": 11.5,
+  "window.zoomLevel": 0,
+  "python.formatting.blackPath": "/home/<user>/.local/bin/black",
+  "background-terminal-notifier.pollFrequency": 2,
+  "python.linting.enabled": true,
+  "python.linting.flake8Enabled": true,
+  "peacock.favoriteColors": [
+    {
+      "name": "All Black",
+      "value": "#000000"
     }
+  ],
+  "files.autoSave": "afterDelay",
+  "git.confirmSync": false,
+  "files.associations": {
+    "*.ipynb": "jupyter",
+    "*.toml": "toml",
+    "*.py": "python"
+  },
+  "githubIssues.queries": [
+    {
+      "label": "My Issues",
+      "query": "default"
+    },
+    {
+      "label": "Created Issues",
+      "query": "author:${user} state:open repo:${owner}/${repository} sort:created-desc"
+    }
+  ],
+  "githubPullRequests.remotes": ["origin", "upstream", "downstream", "main"],
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook",
+    "*.svg": "default",
+    "*.json": "default"
+  },
+  "docker.showStartPage": false,
+  "redhat.telemetry.enabled": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "git.enableSmartCommit": true,
+  "explorer.confirmDragAndDrop": false,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "databricks.connection.default.exportFormats": {
+    "Scala": ".scala",
+    "Python": ".ipynb",
+    "SQL": ".sql",
+    "R": ".r"
+  },
+  "databricks.connection.default.localSyncSubfolders": {
+    "Workspace": "Workspace",
+    "Clusters": "Clusters",
+    "DBFS": "DBFS",
+    "Jobs": "Jobs"
+  },
+  "databricks.connection.default.localSyncFolder": "alex.wilkerson/Documents/",
+  "databricks.connection.default.displayName": "DATABRICKSNAME",
+  "databricks.connection.default.apiRootUrl": "ROOTURL",
+  "docker.commands.attach": "null",
+  "databricks.lastActiveConnection": "RPM Databricks",
+  "databricks.connection.default.personalAccessTokenSecure": {
+    "keyTarSettingName": "RPM Databricks-API-Token"
+  },
+  "githubIssues.ignoreMilestones": [],
+  "sonarlint.rules": {
+    "python:S125": {
+      "level": "off"
+    },
+    "python:S108": {
+      "level": "off"
+    }
+  },
+  "atlascode.jira.jqlList": [
+    {
+      "id": "2f5aba6b-ad97-43f5-a91f-64fe5e85d003",
+      "enabled": true,
+      "name": "My optisense Issues",
+      "query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
+      "siteId": "32314582-3a1f-4d30-8461-0649db1e1590",
+      "monitor": true
+    }
+  ],
+  "json.schemas": [
+    {
+      "fileMatch": ["*discovery.json"],
+      "url": "./schema/discovery-schema.json"
+    }
+  ],
+  "yaml.customTags": [
+    "!And",
+    "!And sequence",
+    "!If",
+    "!If sequence",
+    "!Not",
+    "!Not sequence",
+    "!Equals",
+    "!Equals sequence",
+    "!Or",
+    "!Or sequence",
+    "!FindInMap",
+    "!FindInMap sequence",
+    "!Base64",
+    "!Join",
+    "!Join sequence",
+    "!Cidr",
+    "!Ref",
+    "!Sub",
+    "!Sub sequence",
+    "!GetAtt",
+    "!GetAZs",
+    "!ImportValue",
+    "!ImportValue sequence",
+    "!Select",
+    "!Select sequence",
+    "!Split",
+    "!Split sequence"
+  ],
+  "aws.profile": "profile:default",
+  "aws.resources.enabledResources": ["AWS::IAM::Role"],
+  "atlascode.jira.lastCreateSiteAndProject": {
+    "siteId": "",
+    "projectKey": ""
+  },
+  "editor.formatOnPaste": true,
+  "atlascode.bitbucket.enabled": false,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "go.toolsManagement.autoUpdate": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "atlascode.jira.enabled": true,
+  "atlascode.enableHttpsTunnel": true,
+  "workbench.startupEditor": "none",
+  "python.formatting.provider": "black",
+  "trunk.trunkGrayOutNonBlockingIssues": false,
+  "tabnine.experimentalAutoImports": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "svg.preview.mode": "svg",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "editor.foldingMaximumRegions": 65000,
+  "gitlens.advanced.messages": {
+    "suppressLineUncommittedWarning": true
+  },
+  "[yaml]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "keep",
+    "gitlens.codeLens.scopes": ["document"],
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    }
+  },
+  "settingsSync.ignoredExtensions": [],
+  "workbench.colorTheme": "Black Ocean",
+  "workbench.preferredDarkColorTheme": "Black Ocean",
+  "workbench.preferredHighContrastColorTheme": "Black Ocean",
+  "workbench.preferredHighContrastLightColorTheme": "Black Ocean",
+  "workbench.preferredLightColorTheme": "Black Ocean",
+  "editor.guides.highlightActiveBracketPair": true,
+  "editor.guides.bracketPairsHorizontal": "active",
+  "editor.guides.bracketPairs": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.language.colorizedBracketPairs": [],
 }
