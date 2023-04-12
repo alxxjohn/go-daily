@@ -17,13 +17,5 @@
         "titleBar.activeForeground": "#e7e7e7",
         "titleBar.inactiveBackground": "#00000099",
         "titleBar.inactiveForeground": "#e7e7e799"
-    },
-    "workbench.settings.editor": "json",
-    "python.formatting.provider": "black",
-    "go.formatTool": "default",
-    "go.testOnSave": true,
-    "go.enableCodeLens": {
-        "runtest": true
     }
-
 }
