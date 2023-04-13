@@ -1,8 +1,10 @@
-import os
+import typing
 
 
-def main(name: str, dog: int):
-    return name + dog
+class Movie(typing.TypedDict):
+    name: str
+    year: int
 
 
-os.getenv("hello")
+die_hard = Movie(Name="diehard", year=1998)
+print(die_hard)

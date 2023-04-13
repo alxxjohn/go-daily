@@ -1,10 +1,28 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
-var save string = "hello"
+var OrderNum int = 1234
 
 func main() {
-	fmt.Println(save)
+
+	fmt.Println("Start")
+
+	var runnerFrame string = "Testing"
+	testt := sayHello("alex")
+
+	fmt.Println(runnerFrame)
+	time.Sleep(4)
+	fmt.Print("next. \n")
+	fmt.Println(OrderNum)
+	fmt.Println(testt)
+
 }
 
+func sayHello(name string) string {
+	return fmt.Sprintf("Hello %v", name)
+
+}
