@@ -12,6 +12,7 @@ func main() {
 	fmt.Println("Start")
 
 	var runnerFrame string = "Testing"
+	nameOfUser := "Alex"
 	testt := sayHello("alex")
 
 	fmt.Println(runnerFrame)
@@ -19,6 +20,7 @@ func main() {
 	fmt.Print("next. \n")
 	fmt.Println(OrderNum)
 	fmt.Println(testt)
+	fmt.Println(nameOfUser)
 
 }
 
