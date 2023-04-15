@@ -2,30 +2,20 @@ package main
 
 import (
 	"fmt"
-	"time"
+	_ "time"
 )
 
 var OrderNum int = 1234
 
 func main() {
 
-	fmt.Println("Start")
-
-	var runnerFrame string = "Testing"
-	nameOfUser := "Alex"
-	testt := sayHello("alex")
-
-	fmt.Println(runnerFrame)
-	time.Sleep(4)
-	fmt.Print("next. \n")
-	fmt.Println(OrderNum)
-	fmt.Println(testt)
-	fmt.Println(nameOfUser)
-	
+	carCount := 21
+	group := 10
+	total := carCount / group
+	remainder := carCount % 10
+	fmt.Println(total)
+	fmt.Println(remainder)
 
 }
 
-func sayHello(name string) string {
-	return fmt.Sprintf("Hello %v", name)
 
-}
