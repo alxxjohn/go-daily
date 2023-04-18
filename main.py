@@ -36,5 +36,14 @@
 
 car_count = 21 / 10
 remainder = 21 % 10
-print(remainder)
-print(car_count)
+# print(remainder)
+# print(car_count)
+
+indexNum = 2
+data = [1,2,3,4,6,9,5,2,10]
+valSet = 0
+
+for idx, val in enumerate(data):
+    if idx == indexNum:
+        valSet = val
+print(valSet)
