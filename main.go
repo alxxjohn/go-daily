@@ -24,7 +24,7 @@ func main() {
 			option2new += string(option2[i:])
 			option1new += string(option1[i:])
 			break
-		} 
+		}
 	}
 	fmt.Println(option2new)
 	fmt.Println(option1new)

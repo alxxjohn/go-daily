@@ -1,0 +1,16 @@
+// AddItem adds an item to customer bill.
+func AddItem(bill, units map[string]int, item, unit string) bool {
+	itm, exist := units["unit"]
+    if exist == true {
+        _, j := bill[item]
+        if j == true{
+            bill[item] += itm
+        } else if j == false {
+        	bill[item] = itm
+            return true
+        }
+    } else if exist == false{
+    	return false
+    }
+	return exist
+}
