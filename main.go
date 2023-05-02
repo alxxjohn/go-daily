@@ -18,7 +18,7 @@ func main() {
 	var option2new string
 	var option1new string
 
-	for i := 0; i < len(option2); i++ {
+	for i := 0; i < len(option2); i=i+3 {
 		if option1[i] != option2[i] {
 
 			option2new += string(option2[i:])
