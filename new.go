@@ -4,8 +4,7 @@ import "fmt"
 
 type Node struct {
 	value int
-	next *Node
-
+	next  *Node
 }
 
 type LinkedList struct {
@@ -13,12 +12,12 @@ type LinkedList struct {
 	len  int
 }
 
-func main() {
+func newFunc() {
 
 	data := "hel"
 
-	for  i,j := 0, 1; i < len(data); i,j = i+1, j+1 {
-		fmt.Println(j,i)
+	for i, j := 0, 1; i < len(data); i, j = i+1, j+1 {
+		fmt.Println(j, i)
 
 	}
 
