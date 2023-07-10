@@ -2,14 +2,23 @@ package main
 
 import "fmt"
 
+type Person struct {
+	name string
+	age int
+}
+
 
 
 func main(){
 
-	var names = [3] string {"hello", "tester", "other"}
 
-	for _, elem  := range names {
-		fmt.Println(elem)
-	}
+	var alex Person
+	alex = Person{name: "alex", age: 29}
+
+	var p *Person
+	p = &alex
+
+	fmt.Println(p.name)
+	fmt.Println(p.age)
 
 }
