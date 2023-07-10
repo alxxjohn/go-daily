@@ -1,18 +1,15 @@
-package main 
+package main
 
-import (
-	"dailies/bfs"
-	"fmt"
-)
+import "fmt"
 
-
-thisList := [1, 2,4,5,6,7,8,5,9,0,0]
 
 
 func main(){
 
-	search = bfs(thisList, 5)
+	var names = [3] string {"hello", "tester", "other"}
 
-	fmt.PrintLn("helo")
+	for _, elem  := range names {
+		fmt.Println(elem)
+	}
 
 }
